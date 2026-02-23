@@ -20,6 +20,9 @@ public class ConsolaAerolinea extends ConsolaBasica
         {
             System.out.println("=== INICIO DE PRUEBAS DE LA AEROLÍNEA ===\n");
 
+            // Inicializar la aerolínea
+            unaAerolinea = new Aerolinea();
+
             AeropuertoTest aeropuertoTest = new AeropuertoTest();
 			aeropuertoTest.testCargarAerolineaJSON(unaAerolinea);
 			aeropuertoTest.testCargarTiquetesJSON(unaAerolinea);
