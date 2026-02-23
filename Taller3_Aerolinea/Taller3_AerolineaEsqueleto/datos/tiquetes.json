@@ -1,0 +1,57 @@
+{
+	"clientes": [
+		{
+			"tipoCliente": "Natural",
+			"nombre": "Alice"
+		},
+		{
+			"tipoCliente": "CORPORATIVO",
+			"nombreEmpresa": "Apple",
+			"tamanoEmpresa": 3
+		},
+		{
+			"tipoCliente": "Natural",
+			"nombre": "Bob"
+		},
+		{
+			"tipoCliente": "CORPORATIVO",
+			"nombreEmpresa": "Boeing",
+			"tamanoEmpresa": 2
+		},
+		{
+			"tipoCliente": "Natural",
+			"nombre": "Charlie"
+		},
+		{
+			"tipoCliente": "CORPORATIVO",
+			"nombreEmpresa": "Google",
+			"tamanoEmpresa": 3
+		}
+	],
+	"tiquetes": [
+		{
+			"codigoRuta": "4558",
+			"fecha": "2024-11-05",
+			"codigoTiquete": "8769647",
+			"tarifa": 450000,
+			"usado": false,
+			"cliente": "Bob"
+		},
+		{
+			"codigoRuta": "4558",
+			"fecha": "2024-11-05",
+			"codigoTiquete": "8769648",
+			"tarifa": 450000,
+			"usado": true,
+			"cliente": "Alice"
+		},
+		{
+			"codigoRuta": "4558",
+			"fecha": "2024-11-05",
+			"codigoTiquete": "8769649",
+			"tarifa": 450000,
+			"usado": false,
+			"cliente": "Apple"
+		}
+	]
+}

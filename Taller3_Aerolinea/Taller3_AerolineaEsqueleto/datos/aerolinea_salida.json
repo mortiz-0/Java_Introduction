@@ -1,0 +1,87 @@
+{
+  "aviones": [
+    {
+      "nombreAvion": "Boeing 737-800",
+      "capacidad": 189
+    },
+    {
+      "nombreAvion": "Airbus A320",
+      "capacidad": 180
+    },
+    {
+      "nombreAvion": "Boeing 787",
+      "capacidad": 242
+    }
+  ],
+  "vuelos": [
+    {
+      "fecha": "2024-11-05",
+      "codigoRuta": "4558",
+      "nombreAvion": "Boeing 737-800"
+    },
+    {
+      "fecha": "2024-12-10",
+      "codigoRuta": "4559",
+      "nombreAvion": "Airbus A320"
+    }
+  ],
+  "rutas": [
+    {
+      "codigoRuta": "4560",
+      "horaLlegada": "07:30",
+      "origen": {
+        "codigo": "BOG",
+        "latitud": 4.7011,
+        "longitud": -74.1469,
+        "nombreCiudad": "Bogotá",
+        "nombre": "Aeropuerto El Dorado"
+      },
+      "destino": {
+        "codigo": "CTG",
+        "latitud": 10.4424,
+        "longitud": -75.513,
+        "nombreCiudad": "Cartagena",
+        "nombre": "Aeropuerto Rafael Núñez"
+      },
+      "horaSalida": "06:00"
+    },
+    {
+      "codigoRuta": "4558",
+      "horaLlegada": "09:15",
+      "origen": {
+        "codigo": "BOG",
+        "latitud": 4.7011,
+        "longitud": -74.1469,
+        "nombreCiudad": "Bogotá",
+        "nombre": "Aeropuerto El Dorado"
+      },
+      "destino": {
+        "codigo": "MDE",
+        "latitud": 6.1645,
+        "longitud": -75.4227,
+        "nombreCiudad": "Medellín",
+        "nombre": "Aeropuerto José María Córdova"
+      },
+      "horaSalida": "08:00"
+    },
+    {
+      "codigoRuta": "4559",
+      "horaLlegada": "11:30",
+      "origen": {
+        "codigo": "MDE",
+        "latitud": 6.1645,
+        "longitud": -75.4227,
+        "nombreCiudad": "Medellín",
+        "nombre": "Aeropuerto José María Córdova"
+      },
+      "destino": {
+        "codigo": "CLO",
+        "latitud": 3.5432,
+        "longitud": -76.3816,
+        "nombreCiudad": "Cali",
+        "nombre": "Aeropuerto Alfonso Bonilla Aragón"
+      },
+      "horaSalida": "10:00"
+    }
+  ]
+}

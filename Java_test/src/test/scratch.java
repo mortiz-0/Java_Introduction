@@ -1,6 +1,6 @@
 package test;
 
-public class scratch {
+public class Scratch {
 	public static void main(String[] args) {
 		// Parameters
 		double[] arregloDoubles = {1.1,2.1,3.1,4.1,5.1};

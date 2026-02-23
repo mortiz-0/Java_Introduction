@@ -1,0 +1,47 @@
+﻿=== INICIO DE PRUEBAS DE LA AEROL═NEA ===
+
+--- TEST 1: Cargar AerolÝnea desde JSON ---
+? AerolÝnea cargada correctamente
+  - Rutas cargadas: 3
+  - Aviones cargados: 3
+  - Vuelos cargados: 1
+
+--- TEST 2: Cargar Tiquetes desde JSON ---
+? Tiquetes y clientes cargados correctamente
+  - Clientes cargados: 6
+  - Tiquetes cargados: 0
+
+--- TEST 3: Programar Vuelo ---
+? Vuelo programado correctamente
+  - Vuelos antes: 1
+  - Vuelos despuÚs: 2
+  - Ruta: 4559, Fecha: 2024-12-10, Avi¾n: Airbus A320
+
+--- TEST 4: Vender Tiquetes ---
+? Tiquetes vendidos correctamente
+  - Cliente: Charlie
+  - Cantidad: 2
+  - Valor total: $0
+  - Tiquetes antes: 0
+  - Tiquetes despuÚs: 2
+
+--- TEST 5: Salvar AerolÝnea a JSON ---
+? AerolÝnea guardada correctamente en: ./datos/aerolinea_salida.json
+
+--- TEST 6: Registrar Vuelo Realizado ---
+? Vuelo registrado como realizado
+  - Ruta: 4558, Fecha: 2024-11-05
+  - Los tiquetes de este vuelo fueron marcados como usados
+
+--- TEST 7: Consultar Saldo Pendiente ---
+  - Saldo pendiente de Bob: $0
+  - Saldo pendiente de Alice: $0
+  - Saldo pendiente de Apple: $0
+  - Saldo pendiente de Charlie: $0
+? Consultas de saldo completadas
+
+--- TEST 8: Salvar Tiquetes a JSON ---
+? Tiquetes guardados correctamente en: ./datos/tiquetes_salida.json
+
+
+=== FIN DE PRUEBAS ===

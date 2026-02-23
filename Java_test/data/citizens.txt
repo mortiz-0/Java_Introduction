@@ -1,2 +1,4 @@
-Marcos C.C 12345 2000-01-01
-María T.I 12345 2000-01-01
+Marcos C.C 12345 2000-01-01 est
+María T.I 12345 2000-01-01 est
+Manuel C.C 12345 2000-01-01 rector
+Marcela C.C 12345 2000-01-01 prof
