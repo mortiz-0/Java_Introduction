@@ -1,7 +1,8 @@
 package test.Uni;
+import java.io.Serializable;
 import java.time.LocalDate;
 
-public class ColombianCitizen {
+public class ColombianCitizen implements Serializable {
 	private String nombre = "";
 	private String tipo_documento = "";
 	private String num_id = "";

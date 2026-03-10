@@ -5,7 +5,6 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.stream.Stream;
 
 public class University {
 	private ArrayList<ColombianCitizen> citizens = new ArrayList<>();
@@ -31,7 +30,7 @@ public class University {
 		        else if (info[4].equals("rector")) {
 		        	Rector rect = new Rector(info[0], info[1], info[2], info[3]);
 		            this.citizens.add(rect);
-		            RECTOR = rect;
+		            this.RECTOR = rect;
 		        }
 		        else if (info[4].equals("prof")) {
 		        	Profesor prof = new Profesor(info[0], info[1], info[2], info[3]);
@@ -58,8 +57,12 @@ public class University {
 	}
 		
 	//get Citizens is just a view which points to the ArrayLists
-	public List<AbstractAccion> getCitizens(){
-	    return Stream.concat(this.estudiantes.stream(), this.profesores.stream()).toList();
+	public List<ColombianCitizen> getCitizens(){
+		List<ColombianCitizen> lst = new ArrayList<>();
+		lst.add(RECTOR);
+		lst.addAll(estudiantes);
+		lst.addAll(profesores);
+	    return lst;
 	    }
 	public List<Estudiante> getStudents(){
 	    return this.estudiantes;
@@ -70,7 +73,7 @@ public class University {
 	public Rector getRector() {
 		return RECTOR;
 	}
-	protected void printListObjects(List<AbstractAccion> ls){
+	protected void printListObjects(List<ColombianCitizen> ls){
 		ls.forEach(d->System.out.println(d.getNombre() + " " +
 	    		d.getTipoDoc() + " " + d.getNumId() + " " + 
 	    		d.getExpId() + " " + d.getcitizenType()));
