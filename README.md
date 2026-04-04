@@ -12,15 +12,14 @@ This repository serves as a portfolio for the workshops completed during my Unde
 
 ## 📂 Repository Structure
 
-| Folder                    | Project Name                     | Key Focus                                                       |
-|:--------------------------|:---------------------------------|:----------------------------------------------------------------|
+| Folder                    | Project Name                     | Key Focus                                                      |
+|:--------------------------|:---------------------------------|:---------------------------------------------------------------|
 | `Java_test`               | **Java Reconnaissance**          | Environment setup, syntax basics, and initial Java exploration. |
-| `Taller1_Gasolinera`      | **Gas Station System**           | Class design, object instantiation.                             |
-| `Taller2_Estructuras`     | **Java Data Structures**         | Arrays, Lists, and the Java Collections Framework.              |
-| `Taller3_Aerolínea`       | **Basic OOP Airport System**      | OPP                                                             |
-| `Taller4_AnalisisCineMax` | **Cinema Domain Analisis & UML** | Domain, Rules, UML                                              |
-| `FrameMap` | **Basic OOP Map** | Basic Graphic Interface using java.awt and javax.swing
-|
+| `Taller1_Gasolinera`      | **Gas Station System**           | Class design, object instantiation.                            |
+| `Taller2_Estructuras`     | **Java Data Structures**         | Arrays, Lists, and the Java Collections Framework.             |
+| `Taller3_Aerolínea`       | **Basic OOP Airport System**      | OPP                                                            |
+| `Taller4_AnalisisCineMax` | **Cinema Domain Analisis & UML** | Domain, Rules, UML                                             |
+| `FrameMap` | **Basic OOP Map** | Basic Graphic Interface using java.awt and javax.swing|
 ---
 
 ## 🛠️ Tech Stack & Tools
