@@ -1,3 +1,6 @@
 [submodule "Proyecto1-G02"]
 	path = Proyecto1-G02
 	url = https://github.com/DPOO-202610-SEC03-G02/Proyecto1-G02.git
+[submodule "Proyecto2-G02"]
+	path = Proyecto2-G02
+	url = https://github.com/DPOO-202610-SEC03-G02/Proyecto2-G02.git
