@@ -1,9 +1,9 @@
-package test;
+package demo;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.ObjectOutputStream;
 import java.util.ArrayList;
-import test.Uni.Estudiante;
+import demo.uni.Estudiante;
 
 public class Scratch {
 	public static ArrayList<Estudiante> students = new ArrayList<Estudiante>();

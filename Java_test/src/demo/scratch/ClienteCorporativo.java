@@ -1,4 +1,4 @@
-package tests.Practica;
+package demo.scratch;
 
 public class ClienteCorporativo extends Cliente {
 	public final String CORPORATIVO = "Corporativo";

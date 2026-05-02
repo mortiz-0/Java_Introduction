@@ -1,4 +1,4 @@
-package tests.Practica;
+package demo.scratch;
 
 import java.util.ArrayList;
 import java.util.Iterator;

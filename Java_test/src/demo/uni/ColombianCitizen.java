@@ -1,8 +1,12 @@
-package test.Uni;
+package demo.uni;
 import java.io.Serializable;
 import java.time.LocalDate;
 
 public class ColombianCitizen implements Serializable {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private String nombre = "";
 	private String tipo_documento = "";
 	private String num_id = "";

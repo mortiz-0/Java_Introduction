@@ -1,6 +1,10 @@
-package test.Uni;
+package demo.uni;
 
 public class Profesor extends ColombianCitizen implements ICompras{
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	@Override
 	public String accionSalon(){
 		return "Enseñar";

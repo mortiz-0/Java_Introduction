@@ -1,6 +1,10 @@
-package test.Uni;
+package demo.uni;
 
 public class Estudiante extends ColombianCitizen implements ICompras{
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	public Estudiante(String name, String tipoDoc, String num_id, String exp_id) {
 		super(name, tipoDoc, num_id, exp_id);
 		this.changeCitizenType("Estudiante");

@@ -1,4 +1,4 @@
-package test.Uni;
+package demo.uni;
 
 public interface ICompras {
 	public boolean hizoPedido = false;

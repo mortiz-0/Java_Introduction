@@ -1,4 +1,4 @@
-package tests.Practica;
+package demo.scratch;
 
 public class Tiquete {
 	//Attributes

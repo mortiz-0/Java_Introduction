@@ -1,7 +1,5 @@
 package uniandes.dpoo.aerolinea.consola;
 
-import java.io.IOException;
-
 import uniandes.dpoo.aerolinea.modelo.Aerolinea;
 import uniandes.dpoo.aerolinea.tests.AeropuertoTest;
 
