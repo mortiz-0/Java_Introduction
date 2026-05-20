@@ -11,6 +11,7 @@ public class CentralPersistenciaTest {
 	@BeforeEach
 	void setUp() {
 		try {
+			@SuppressWarnings("unused")
 			CentralPersistencia CentPer = new CentralPersistencia();
 		}
 		catch(Exception e){

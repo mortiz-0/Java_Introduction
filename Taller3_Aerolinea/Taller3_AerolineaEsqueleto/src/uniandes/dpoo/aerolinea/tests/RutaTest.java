@@ -13,6 +13,7 @@ public class RutaTest {
 	@BeforeAll
 	static void crearAeropuertos() throws Exception {
 		try {
+			@SuppressWarnings("unused")
 			Aeropuerto aeropuerto1 = new Aeropuerto(null, null, null, 0, 0);
 		}
 		catch(Exception e){
@@ -22,6 +23,7 @@ public class RutaTest {
 	@BeforeEach
 	void setUp() {
 		try {
+			@SuppressWarnings("unused")
 			Ruta ruta1 = new Ruta(null, null, null, null, null);
 		}
 		catch(Exception e){

@@ -10,6 +10,7 @@ public class ClienteTest {
 	@BeforeEach
 	void setUp() {
 		try {
+			@SuppressWarnings("unused")
 			ClienteCorporativo cliente = new ClienteCorporativo("Empresa XYZ", 123);
 		}
 		catch(Exception e) {
