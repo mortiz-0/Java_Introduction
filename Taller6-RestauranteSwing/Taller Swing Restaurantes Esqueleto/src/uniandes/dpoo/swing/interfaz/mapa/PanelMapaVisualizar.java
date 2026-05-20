@@ -28,7 +28,7 @@ public class PanelMapaVisualizar extends JPanel
 
     public PanelMapaVisualizar() {
         setLayout(new BorderLayout());
-        this.labMapa = new JLabel(new ImageIcon("./imagenes/mapa.png"));
+    this.labMapa = new JLabel(new ImageIcon(getClass().getResource("/imagenes/mapa.png")));
         labMapa.setBorder(new LineBorder(Color.DARK_GRAY));
         add(labMapa, BorderLayout.CENTER);
     }

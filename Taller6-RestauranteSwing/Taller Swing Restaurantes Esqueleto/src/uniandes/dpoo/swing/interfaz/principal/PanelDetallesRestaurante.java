@@ -82,7 +82,7 @@ public class PanelDetallesRestaurante extends JPanel
      * @return Una imagen a la que corresponde la calificación
      */
     private ImageIcon buscarIconoCalificacion(int calificacion) {
-        String imagen = "./imagenes/stars"+calificacion+".png";
-        return new ImageIcon(imagen);
+        String imagen = "/imagenes/stars"+calificacion+".png";
+        return new ImageIcon(getClass().getResource(imagen));
     }
 }

@@ -31,7 +31,7 @@ public class PanelMapaAgregar extends JPanel implements MouseListener
 
     public PanelMapaAgregar( )
     {
-        this.labMapa = new JLabel( new ImageIcon( "./imagenes/mapa.png" ) );
+    this.labMapa = new JLabel(new ImageIcon(getClass().getResource("/imagenes/mapa.png")));
         labMapa.setBorder( new LineBorder( Color.DARK_GRAY ) );
         labMapa.addMouseListener( this );
         add( labMapa );
