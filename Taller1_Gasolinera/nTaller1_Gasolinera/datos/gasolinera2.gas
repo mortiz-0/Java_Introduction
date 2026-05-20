@@ -1,0 +1,13 @@
+tipo:Donuts_Fuel:15000:296.0
+tipo:Diamond_Fuel:25000:250.0
+tipo:No_Good_Fuel:10000:100000.0
+tipo:Pollito_Fuel:20000:200.0
+surtidor:Mateo:Donuts_Fuel:0.0:Diamond_Fuel:0.0:No_Good_Fuel:0.0:Pollito_Fuel:0.0
+surtidor:Yurleimis:Donuts_Fuel:4.0:Diamond_Fuel:0.0:No_Good_Fuel:0.0:Pollito_Fuel:0.0
+surtidor:Yurleimis:Donuts_Fuel:0.0:Diamond_Fuel:0.0:No_Good_Fuel:0.0:Pollito_Fuel:0.0
+surtidor:Maria:Donuts_Fuel:0.0:Diamond_Fuel:0.0:No_Good_Fuel:0.0:Pollito_Fuel:0.0
+empleado:Mateo:0
+empleado:Diego:0
+empleado:Juan:0
+empleado:Yurleimis:60000
+empleado:Maria:0
